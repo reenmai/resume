@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Azreen Umairah EResume Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url(background.jpg);
+  /*background-color: #91bad6;*/
+  min-height: 100%;
+  filter: none !important;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="student.html" target=”_blank” class="w3-bar-item w3-button w3-wide"><img src="logo website.png" alt="" width="100" height="50"></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="index.html" target="_blank" class="w3-bar-item w3-button">HOME</a> 
+      <a href="About.html" target="_blank" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="Education.html" target="_blank" class="w3-bar-item w3-button"></i> EDUCATION</a>
+      <a href="Employment.html" target="_blank" class="w3-bar-item w3-button"></i> EMPLOYMENT</a>
+      <a href="Achievement.html" target="_blank" class="w3-bar-item w3-button"></i> ACHIEVEMENT</a>
+      <a href="Skill.html" target="_blank" class="w3-bar-item w3-button"></i> SKILLS</a>
+      <a href="Contact.html" target="_blank" class="w3-bar-item w3-button"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="index.html" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="About.html" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="Education.html" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button">EDUCATION</a>
+  <a href="Employment.html" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button">EMPLOYMENT</a>
+  <a href="Achievement.html" target="_blank"  onclick="w3_close()" class="w3-bar-item w3-button">ACHIEVEMENT</a>
+  <a href="Skill.html" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button">SKILLS</a>
+  <a href="Contact.html" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-black" style="padding:50px; line-height: 1;">
+    <span class="w3-jumbo w3-hide-small">Hi! I'm Azreen Umairah</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Hi! I'm Azreen Umairah</span><br>
+    <span class="w3-large">Bachelor of Information Management (Hons) - Library Management</span>
+    <p><a href="About.html" target="_blank" class="w3-button w3-black w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">About</a></p>
+  </div> 
+</header>
+
+<!-- Education Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px;  text-align: center;">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>EDUCATION</h3>
+      <p>History of Azreen Umairah Azahar's Education<br>Click tab below to see.</p>
+      <p><a href="Education.html" target="_blank" class="w3-button w3-black"><i class="fa fa-th"></i> A.U Education</a></p>
+    </div>
+    <img src="gambar.jpg" width="600" height="250" alt="universiti" style="text-align: right !important;">
+    <div class="w3-col m6">
+    </div>
+  </div>
+</div>
+
+<!-- Employment Section -->
+<div class="w3-container" style="padding:128px 16px; background-color: #91bad6 !important;text-align: center;" id="team">
+  <h3 class="w3-center">EMPLOYMENT</h3>
+  <p class="w3-center w3-large">Azreen Umairah's Employment<br>Click tab below to see.</p>
+  <p><a href="Employment.html" target="_blank" class="w3-button w3-black"><i class="fa fa-th"></i> A.U Employment</a></p>
+  </div>
+</div>
+
+<!-- Achievement Section -->
+<div class="w3-container" style="padding:128px 16px;  text-align: center;" id="work">
+  <h3 class="w3-center">ACHIEVEMENT</h3>
+  <p class="w3-center w3-large">Azreen Umairah's Achievement<br>Click tab below to see.</p>
+  <p><a href="Achievement.html" target="_blank" class="w3-button w3-black"><i class="fa fa-th"></i> A.U Achievement</a></p>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64" style="text-align: center; background-color: #91bad6 !important;">
+  <h3 class="w3-center">SKILLS</h3>
+  <p class="w3-center w3-large">Azreen Umairah's Skills<br>Click tab below to see.</p>
+  <p><a href="Skill.html" target="_blank" class="w3-button w3-black"><i class="fa fa-th"></i> A.U Skills and Project</a></p>
+  </div>
+</div>
+
+<!-- Video Resume Section -->
+<div class="w3-container w3-light-grey w3-padding-64" style="text-align: center; background-color:#fff;">
+  <h3 class="w3-center">Resume Video</h3>
+  <p class="w3-center w3-large">Azreen Umairah's Resume Video<br></p>
+  <p><a href="Video resume azreen.mp4" target="_blank" class="w3-button w3-black"><i class="fa fa-th"></i> A.U Resume Video</a></p>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px; background-color: #91bad6 !important;" id="contact">
+  <style>
+    a:link {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: blue;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+ /*   a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }*/
+  </style>
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send a message:</p>
+  <div style="margin-top:48px; text-align: center;">
+    <p><i class="fa fa-linkedin fa-fw w3-xxlarge w3-margin-right"></i> <a href="https://www.linkedin.com/in/azreen-umairah-azahar-67759b239/" target="_blank"> Azreen Umairah Azahar</a></p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> <a href="tel:+6013-3947102" target="_blank"> +6013-3947102</a></p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> <a href="mailto:azreenumairah@gmail.com" target="_blank"> azreenumairah@gmail.com</a></p>
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> <a href="https://maps.app.goo.gl/unz3z7gefnEfee7o8" target="_blank">Mailing Address</a></p>
+    <br>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-padding-64" style="background-color: #fff;">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+  </div>
+  <p> Copyright 2023 A.U E Resume. All rights reserved. Terms & Conditions. Privacy Policy.
+    <br> Recommended browser google chrome.<br> 
+  </p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
